@@ -1,0 +1,23 @@
+body{
+    background-color: #a9d6e5;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container{
+    margin: auto;
+    background-color: #f3f3f3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: solid ;
+    padding: 20px 10px 10px 10px;
+    height: 700px;
+    width: 800px;
+
+}

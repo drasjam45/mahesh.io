@@ -1,0 +1,73 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+
+h1{
+    text-align: center;
+}
+
+#container{
+    width: 85%;
+    background-color: #003049;
+    margin: 0 auto;
+    /*height: 200px;*/
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap: wrap
+
+
+}
+
+#container div{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+} 
+
+div:nth-of-type(5){
+    align-self: flex-start;
+}
+
+
+/* div:nth-of-type(2){
+    align-self: center;
+}
+
+
+div:nth-of-type(3){
+    align-self: flex-end;
+}
+
+div:nth-of-type(4){
+    align-self: center;
+}*/
+
+
+main{
+    width: 80%;
+    margin: auto;
+    border: 5px solid black;
+    height: 200px;
+    display: flex;
+}
+
+h2{
+    text-align: center;
+}
+
+main .sidebar{
+    background-color: blueviolet;
+    border: 2px solid white;
+    flex: 1;
+
+}
+
+main .maincontent{
+    background-color: chartreuse;
+    flex: 1;
+}

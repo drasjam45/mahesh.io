@@ -1,0 +1,17 @@
+body{
+    margin-top: 33px;
+    text-align: center;
+    background-color: #eee;
+}
+
+#container{
+    background-color: #eee;
+}
+
+img{
+    border-radius: 90%;
+}
+
+#thumbnail{
+    border-color: 2px black;
+}

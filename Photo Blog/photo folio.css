@@ -1,0 +1,10 @@
+img{
+    width: 30%;
+    margin: calc(10%/6);
+    height: 300px;
+}
+
+nav{
+    font-family: 'raleway' sans-serif;
+    padding: 1.2em;
+}

@@ -1,0 +1,35 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 2px;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+}
+
+#middle{
+    background-color: cadetblue;
+}
+
+
+#static #middle{
+    position:static;
+    top: 100px;
+}
+
+#absolute{
+    position: relative;
+}
+
+#relative #middle{
+    position:relative;
+    top:50px;
+    left: 50px;
+}
+
+#absolute #middle{
+    position: absolute;
+    top:50px;
+    left: 50px;
+}
